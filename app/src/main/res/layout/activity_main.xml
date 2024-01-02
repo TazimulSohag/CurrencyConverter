@@ -4,21 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D7E1FA"
+    android:background="#CDD8F9"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/baselayout"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="240dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="40dp"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
 
     </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/button_style"
+
+        app:layout_constraintTop_toBottomOf="@+id/baselayout" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
