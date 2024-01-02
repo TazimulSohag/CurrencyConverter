@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "co.banglabs.currencyconverter"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "co.banglabs.currencyconverter"
@@ -33,7 +33,7 @@ android {
 
 dependencies {
 
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.appcompat:appcompat:1.6.0")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
