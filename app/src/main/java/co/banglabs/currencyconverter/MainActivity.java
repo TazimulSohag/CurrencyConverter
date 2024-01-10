@@ -15,6 +15,11 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,22 +70,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         arraylist = new ArrayList<>();
-        for(String i : currency) {
+        for (String i : currency) {
             arraylist.add(i);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
