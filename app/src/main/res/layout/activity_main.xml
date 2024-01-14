@@ -101,6 +101,13 @@
         app:layout_constraintTop_toBottomOf="@+id/baselayout"
         tools:layout_editor_absoluteX="80dp" />
 
+    <TextView
+        android:id="@+id/conversationRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
 
 
 
